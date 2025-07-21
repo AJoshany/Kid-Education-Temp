@@ -395,3 +395,15 @@
             input .text {
                 padding-left: 1000px;
             }
+
+            @media screen and (max-width:768px) {
+                .card-container {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                .wellcome-sec {
+                    width: 100%;
+                }
+            }
