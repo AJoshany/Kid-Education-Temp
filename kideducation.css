@@ -1,0 +1,397 @@
+            /*1-حالت موبایل خیلی مشکل داره 
+            یکیش اینه که منوی بالای کاروسل خرابه
+            ۲-کلید مور پایین صفحه هم وقتی تو حالت موبایله مقیعیش خرابه
+            ۳-لوگو اسم بالای صفحه درست نشد
+            ۴-ولکام وقتی روی حالت مدیومه مشکل داره*/
+
+            #header {
+                background-image: linear-gradient(#6dabff, #add9f2);
+            }
+
+            body {
+                background-image: url("bg.jpg");
+            }
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            p,
+            a {
+                font-family: "Pentol";
+            }
+
+            .clear {
+                clear: both;
+            }
+
+            .carousel-control-prev-icon {
+                padding: 35px;
+                background-color: #6a2e25;
+                opacity: 40%;
+                border-radius: 10px;
+                position: relative;
+                left: 15px;
+            }
+
+            .carousel-control-next-icon {
+                position: relative;
+                right: 15px;
+                padding: 35px;
+                background-color: #6a2e25;
+                opacity: 40%;
+                border-radius: 10px;
+            }
+
+
+
+            .carousel-item img {
+                border-radius: 50px;
+                border: solid 15px #fcf5db;
+            }
+
+            .carousel-item h2,
+            p {
+                position: relative;
+                right: 100px;
+            }
+
+            .carousel-item h2 {
+                text-shadow: rgb(77, 77, 77) 3px 3px;
+                font-family: Arial;
+                font-size: 5vw;
+            }
+
+            .carousel-item p {
+                font-size: 2vw;
+                padding-left: 15px;
+                text-shadow: rgb(77, 77, 77) 1px 1px;
+            }
+
+            @media only screen and (min-width:992px) {
+                #top-nav {
+                    position: relative;
+                    padding-bottom: 0;
+                    height: 70px;
+                }
+
+                #top-nav ul li {
+                    padding-top: 10px;
+                    height: 70px;
+                    width: 113px;
+                }
+
+                #top-nav ul li.active {
+                    position: relative;
+                    bottom: 10px;
+                }
+
+                #top-nav ul li a {
+                    color: white;
+                }
+
+                #top-nav {
+                    margin-left: auto;
+                    margin-bottom: -15px;
+                    margin-right: auto;
+                    font-family: "Pentol";
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+
+                #nav-item1 {
+                    background-image: url("./images/nav1.png");
+                    margin-right: 4px;
+                }
+
+                #nav-item2 {
+                    background-image: url("./images/nav2.png");
+                    margin-right: 4px;
+                }
+
+                #nav-item3 {
+                    background-image: url("./images/nav3.png");
+                    margin-right: 4px;
+                }
+
+                #nav-item4 {
+                    background-image: url("./images/nav4.png");
+                    margin-right: 4px;
+                }
+
+                #nav-item5 {
+                    background-image: url("./images/nav5.png");
+                    margin-right: 4px;
+                }
+
+                #nav-item6 {
+                    background-image: url("./images/nav6.png");
+                    margin-right: 4px;
+                }
+
+                #top-nav a {
+                    color: white;
+                }
+
+                .nav-hover li:hover {
+                    position: relative;
+                    bottom: 10px;
+                }
+
+                #top-nav .dropdown-menu {
+                    border: none;
+                    border-bottom-left-radius: 15px;
+                    border-bottom-right-radius: 15px;
+                    background-color: #5e4d38;
+                    color: white;
+                    font-weight: normal;
+                    margin-top: -19px;
+                }
+
+                #top-nav .dropdown-item {
+                    color: white;
+                }
+
+                #top-nav .dropdown-item:hover {
+                    background-color: #eb7400;
+                    border-radius: 15px;
+                }
+            }
+
+            .center-rl img {
+                padding-top: 35px;
+                margin-left: 8%;
+                margin-right: 2%;
+            }
+
+            .center-rl h3 {
+                margin-left: 25px;
+                color: white;
+                font-weight: bold;
+            }
+
+            .center-rl p {
+                text-align: left;
+                margin: 25px;
+                margin-top: 15px;
+                position: relative;
+                right: 0;
+                color: white;
+            }
+
+            #center-right {
+                background-image: url("./images/right.png");
+                background-repeat: no-repeat;
+                height: 511px;
+                width: 341px;
+            }
+
+            #center-right a {
+                text-decoration: none;
+                font-weight: bold;
+                color: #eb7400;
+                padding: 27px 12px;
+                background-color: white;
+                border: #eb7400 6px solid;
+                border-radius: 250px;
+                position: relative;
+                left: 20px;
+                top: 60px;
+            }
+
+            #center-right a:hover {
+                background-color: #eb7400;
+                border-color: white;
+                color: white;
+            }
+
+            #center-left {
+                background-image: url("./images/left.png");
+                background-repeat: no-repeat;
+                height: 511px;
+                width: 341px;
+            }
+
+            #center-left a {
+                text-decoration: none;
+                font-weight: bold;
+                color: #efc043;
+                padding: 27px 12px;
+                background-color: white;
+                border: #efc043 6px solid;
+                border-radius: 250px;
+                position: relative;
+                left: 235px;
+                top: 60px;
+            }
+
+            #center-left a:hover {
+                background-color: #efc043;
+                border-color: white;
+                color: white;
+            }
+
+            #center-center {
+                background-image: url("./images/center.png");
+                background-repeat: no-repeat;
+                height: 511px;
+                width: 341px;
+            }
+
+            #center-center a {
+                text-decoration: none;
+                font-weight: bold;
+                color: #d6ca12;
+                padding: 27px 12px;
+                background-color: white;
+                border: #d6ca12 6px solid;
+                border-radius: 250px;
+                position: relative;
+                left: 110px;
+                top: 60px;
+            }
+
+            #center-center a:hover {
+                background-color: #d6ca12;
+                border-color: white;
+                color: white;
+            }
+
+            #wellcome p,
+            h1 {
+                color: #5e4d38;
+                font-family: arial;
+            }
+
+            #more-btn {
+                position: relative;
+                left: 250px;
+                top: 50px;
+                background-color: #d6ca12;
+                color: white;
+                border-radius: 25px;
+                padding: 8px 30px;
+                font-family: arial;
+                font-weight: bold;
+            }
+
+            #footer {
+                background-image: url("./images/footer.png");
+                background-repeat: no-repeat;
+                background-size: 100%;
+                width: 100%;
+                max-height: 264px;
+                height: 264px;
+            }
+
+            #footer-nav {
+                position: relative;
+                top: 70px;
+                margin-left: -40px;
+                font-weight: bold;
+                font-size: 20px;
+                list-style: none;
+            }
+
+            #footer-nav li {
+                display: inline-block;
+                margin-right: 25px;
+            }
+
+            #footer-nav li a {
+                color: #d6ca12;
+            }
+
+            #footer-img {
+                position: relative;
+                bottom: 30px;
+            }
+
+            #footer-nav li a:hover {
+                color: #eb7400;
+                text-decoration: none;
+            }
+
+            #main-container {
+                position: relative;
+                top: -250px;
+            }
+
+            @media only screen and (max-width: 992px) {
+                #main-container {
+                    position: relative;
+                    top: -100px;
+                }
+
+                #top-nav button {
+                    margin-left: auto;
+                    margin-right: auto;
+                    border: none;
+                    background-color: #fcf5db;
+                }
+
+                #top-nav button :visited {
+                    width: 150px;
+                    border: none;
+                }
+
+                #top-nav {
+                    text-align: center;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-bottom: -7px;
+                    width: 100%;
+                }
+
+                #top-nav ul {
+                    background-color: #4e3c26;
+                    border-radius: 30px;
+                }
+
+                #top-nav ul li {
+                    margin: 10px;
+                }
+
+                #top-nav .dropdown-menu {
+                    border: none;
+                    border-radius: 15px;
+                    background-color: #5e4d38;
+                    color: white;
+                    font-weight: normal;
+                    text-align: center;
+                }
+
+                #top-nav .dropdown-item {
+                    color: white;
+                }
+
+                #top-nav .dropdown-item:hover {
+                    background-color: #eb7400;
+                    border-radius: 15px;
+                }
+
+                #top-nav ul li a {
+                    color: white;
+                }
+
+                #top-nav ul li.active {
+                    background-color: #d93139;
+                    border-radius: 15px;
+                }
+
+                #more-btn {
+                    left: 100px;
+                }
+
+                #footer-nav {
+                    visibility: hidden;
+                }
+
+
+            }
+
+            input .text {
+                padding-left: 1000px;
+            }
